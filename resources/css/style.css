@@ -33,6 +33,10 @@ section {
   padding: 80px 0;
 }
 
+.box {
+  padding: 1%;
+}
+
 /* ----- HEADINGS ----- */
 
 h1,
@@ -65,6 +69,13 @@ h2:after {
   width: 100px;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+/* ----- PARAGRAHPS ----- */
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
 }
 
 /* ----- BUTTONS ----- */
