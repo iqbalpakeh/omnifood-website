@@ -79,6 +79,7 @@ h2:after {
 }
 
 /* ----- PARAGRAHPS ----- */
+
 .long-copy {
   line-height: 145%;
   width: 70%;
@@ -91,6 +92,7 @@ h2:after {
 }
 
 /* ----- ICONS ----- */
+
 .icon-big {
   font-size: 350%;
   display: block;
