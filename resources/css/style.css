@@ -412,3 +412,32 @@ cite img {
   width: 90%;
   margin-left: 5%;
 }
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: #e67e22;
+}
+
+.plan-price span {
+  font-size: 30%;
+  font-weight: 300;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box ul li {
+  padding: 5px 0;
+}
