@@ -493,6 +493,7 @@ input[type="checkbox"] {
 
 footer {
   background-color: #333;
+  padding: 50px;
 }
 
 .footer-nav {
@@ -523,4 +524,17 @@ footer {
   text-decoration: none;
   border: 0;
   color: #888;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #ddd;
+}
+
+footer p {
+  color: #888;
+  text-align: center;
+  font-size: 90%;
+  margin-top: 30px;
 }
