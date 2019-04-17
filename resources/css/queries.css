@@ -28,6 +28,23 @@
     width: 80%;
     margin-left: 10%;
   }
+
+  .step-box {
+    margin-top: 10px;
+  }
+
+  .works-step {
+    margin-bottom: 40px;
+  }
+
+  .steps-box:last-child {
+    /* padding-left: 3%;
+    margin-top: 70px; */
+  }
+
+  .works-step:last-of-type {
+    /* margin-bottom: 80px; */
+  }
 }
 
 /* 
