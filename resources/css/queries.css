@@ -91,6 +91,7 @@
 
   .col {
     width: 100%;
+    margin: 0% 0 4% 0%;
   }
 
   .main-nav {
@@ -110,7 +111,11 @@
     margin-left: 0%;
   }
 
-  .step-box:first-child {
+  .app-screen {
+    width: 40%;
+  }
+
+  .steps-box:first-child {
     text-align: center;
   }
 
