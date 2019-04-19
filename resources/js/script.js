@@ -1,7 +1,8 @@
 $(document).ready(function() {
-  /**
-   * Sticky navigation
-   */
+  /* ---------------------------------------------------- */
+  /* STICKY NAVIGATION */
+  /* ---------------------------------------------------- */
+
   $(".js--section-features").waypoint(
     function(direction) {
       if (direction == "down") {
@@ -15,9 +16,10 @@ $(document).ready(function() {
     }
   );
 
-  /**
-   * Scroll to plans
-   */
+  /* ---------------------------------------------------- */
+  /* SCROLL TO PLANS */
+  /* ---------------------------------------------------- */
+
   $(".js--scroll-to-plans").click(function() {
     $("html, body").animate(
       {
@@ -27,9 +29,10 @@ $(document).ready(function() {
     );
   });
 
-  /**
-   * Scroll to start
-   */
+  /* ---------------------------------------------------- */
+  /* SCROLL TO START */
+  /* ---------------------------------------------------- */
+
   $(".js--scroll-to-start").click(function() {
     $("html, body").animate(
       {
@@ -39,9 +42,10 @@ $(document).ready(function() {
     );
   });
 
-  /**
-   * Navigation scroll
-   */
+  /* ---------------------------------------------------- */
+  /* NAVIGATION SCROLL */
+  /* ---------------------------------------------------- */
+
   $('a[href*="#"]')
     .not('[href="#"]')
     .not('[href="#0"]')
@@ -77,9 +81,9 @@ $(document).ready(function() {
       }
     });
 
-  /**
-   * Animations on scroll
-   */
+  /* ---------------------------------------------------- */
+  /* ANIMATIONS ON SCROLL */
+  /* ---------------------------------------------------- */
 
   $(".js--wp-1").waypoint(
     function(direction) {
